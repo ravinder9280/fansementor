@@ -9,7 +9,7 @@ import { dark } from "@clerk/themes";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "AI Career Coach",
+  title: "Fans E Mentor",
   description: "",
 };
 
@@ -22,7 +22,8 @@ export default function RootLayout({ children }) {
     >
       <html lang="en" suppressHydrationWarning>
         <head>
-          <link rel="icon" href="/logo.png" sizes="any" />
+       
+          <link rel="icon" className="rounded-[50%]" href="/logo.svg" sizes="any" />
         </head>
         <body className={`${inter.className}`}>
           <ThemeProvider
